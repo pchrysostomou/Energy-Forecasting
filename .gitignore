@@ -1,0 +1,33 @@
+# Data (too large for git — download via data pipeline)
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/temperature_london.csv
+data/processed/*.csv
+data/processed/*.pkl
+
+# Model weights — final trained models are checked in for the submission zip
+# (kept under saved_models/ alongside the JSON metrics/history files).
+# Use `git rm --cached saved_models/<file>.pt` if you ever need to retrain
+# without polluting the index.
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Tooling / session data
+.claude/
+mdpdf.log

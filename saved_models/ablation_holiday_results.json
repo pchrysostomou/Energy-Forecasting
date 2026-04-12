@@ -1,0 +1,40 @@
+[
+  {
+    "condition": "Without Holiday",
+    "include_holidays": false,
+    "num_features": 8,
+    "det_rmse_mw": 5305,
+    "det_time_s": 256,
+    "gauss_rmse_mw": 5466,
+    "gauss_nll": 1.743899941444397,
+    "gauss_crps_mw": 3732,
+    "gauss_cal_error": 0.26,
+    "gauss_T": 1.71,
+    "gauss_time_s": 90,
+    "mc_rmse_mw": 5321,
+    "mc_nll": 127.4374008178711,
+    "mc_crps_mw": 3352,
+    "mc_cal_error": 0.143,
+    "mc_T": 10.48,
+    "mc_time_s": 235
+  },
+  {
+    "condition": "With Holiday",
+    "include_holidays": true,
+    "num_features": 9,
+    "det_rmse_mw": 5201,
+    "det_time_s": 153,
+    "gauss_rmse_mw": 5252,
+    "gauss_nll": 2.686500072479248,
+    "gauss_crps_mw": 3712,
+    "gauss_cal_error": 0.262,
+    "gauss_T": 1.95,
+    "gauss_time_s": 138,
+    "mc_rmse_mw": 5339,
+    "mc_nll": 121.26100158691406,
+    "mc_crps_mw": 3369,
+    "mc_cal_error": 0.148,
+    "mc_T": 10.12,
+    "mc_time_s": 173
+  }
+]

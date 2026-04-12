@@ -1,0 +1,35 @@
+# ==============================================
+# COMP0197 Energy Demand Forecasting — Config
+# ==============================================
+
+# --- Data ---
+data:
+  raw_path: "data/raw/"
+  processed_path: "data/processed/energy_demand.csv"
+  seq_len: 336            # Input window: 2 weeks of hourly data
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+# --- Model ---
+model:
+  hidden_size: 128
+  num_layers: 2
+  dropout_rate: 0.2       # Used by MC Dropout model
+
+# --- Training ---
+training:
+  batch_size: 64
+  learning_rate: 0.001
+  num_epochs: 100
+  early_stopping_patience: 10
+  optimizer: "adam"
+
+# --- MC Dropout Inference ---
+mc_dropout:
+  n_samples: 50           # Number of forward passes at test time
+
+# --- Paths ---
+paths:
+  saved_models: "saved_models/"
+  figures: "figures/"

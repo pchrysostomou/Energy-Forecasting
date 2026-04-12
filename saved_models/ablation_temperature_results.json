@@ -1,0 +1,38 @@
+[
+  {
+    "config": "with_temp",
+    "num_features": 8,
+    "det_rmse_mw": 5263,
+    "det_time_s": 5134,
+    "gauss_rmse_mw": 5805,
+    "gauss_nll": 2.1043999195098877,
+    "gauss_crps_mw": 3969,
+    "gauss_cal_error": 0.234,
+    "gauss_T": 1.8,
+    "gauss_time_s": 5705,
+    "mc_rmse_mw": 5241,
+    "mc_nll": 109.64830017089844,
+    "mc_crps_mw": 3292,
+    "mc_cal_error": 0.106,
+    "mc_T": 9.87,
+    "mc_time_s": 8809
+  },
+  {
+    "config": "without_temp",
+    "num_features": 7,
+    "det_rmse_mw": 5635,
+    "det_time_s": 11275,
+    "gauss_rmse_mw": 5869,
+    "gauss_nll": 2.3940000534057617,
+    "gauss_crps_mw": 4091,
+    "gauss_cal_error": 0.257,
+    "gauss_T": 1.87,
+    "gauss_time_s": 8063,
+    "mc_rmse_mw": 5619,
+    "mc_nll": 168.1717987060547,
+    "mc_crps_mw": 3569,
+    "mc_cal_error": 0.112,
+    "mc_T": 12.19,
+    "mc_time_s": 20109
+  }
+]
