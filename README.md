@@ -1,5 +1,4 @@
-# COMP0197: Probabilistic Energy Demand Forecasting
-## Group 12
+# Probabilistic Energy Demand Forecasting
 
 This project develops a deep learning system for UK electricity demand forecasting with uncertainty quantification. The task is formulated as probabilistic forecasting, allowing the models to represent both aleatoric uncertainty (data noise) and epistemic uncertainty (model uncertainty).
 
